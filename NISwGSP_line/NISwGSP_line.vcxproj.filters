@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Debugger">
+      <UniqueIdentifier>{6c7774e5-990c-4ba8-afe2-d2f3f62b6575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Feature">
+      <UniqueIdentifier>{f046c73b-2b85-4aa7-aa53-96d109b171bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Mesh">
+      <UniqueIdentifier>{37234937-2d4b-43d5-8409-8dc82eaff416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stitching">
+      <UniqueIdentifier>{9a48d118-0603-4db9-8f71-217d26874769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{4ec04f1d-f201-4f91-ba83-4b25bae9a74a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debugger\ColorMap.cpp">
+      <Filter>源文件\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger\ErrorController.cpp">
+      <Filter>源文件\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger\ImageDebugger.cpp">
+      <Filter>源文件\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger\TimeCalculator.cpp">
+      <Filter>源文件\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature\FeatureController.cpp">
+      <Filter>源文件\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature\ImageData.cpp">
+      <Filter>源文件\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature\MultiImages.cpp">
+      <Filter>源文件\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mesh2D.cpp">
+      <Filter>源文件\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshGrid.cpp">
+      <Filter>源文件\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\MeshOptimization.cpp">
+      <Filter>源文件\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Stitching\APAP_Stitching.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="Stitching\NISwGSP_Stitching.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="Stitching\Parameter.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Blending.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\InputParser.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Statistics.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Transform.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Configure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debugger\ColorMap.h">
+      <Filter>源文件\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger\ErrorController.h">
+      <Filter>源文件\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger\ImageDebugger.h">
+      <Filter>源文件\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger\TimeCalculator.h">
+      <Filter>源文件\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature\FeatureController.h">
+      <Filter>源文件\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature\ImageData.h">
+      <Filter>源文件\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature\MultiImages.h">
+      <Filter>源文件\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mesh2D.h">
+      <Filter>源文件\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshGrid.h">
+      <Filter>源文件\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\MeshOptimization.h">
+      <Filter>源文件\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Stitching\APAP_Stitching.h">
+      <Filter>源文件\Stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="Stitching\NISwGSP_Stitching.h">
+      <Filter>源文件\Stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="Stitching\Parameter.h">
+      <Filter>源文件\Stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Blending.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\InputParser.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Statistics.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Transform.h">
+      <Filter>源文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
