@@ -1,5 +1,7 @@
 # NISwGSP_line
 
+A line preserving term is added to the NISwGSP algorithm to protect the typical line structure from being distorted by the mesh deformation process.
+
 Reference:
 
 He C, Zhou J . Mesh-based image stitching algorithm with linear structure protection[J]. Journal of Image and Graphics, 2018, 23(7): 973-983.
